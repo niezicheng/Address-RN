@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@ant-design/react-native": "^4.0.5",
+    "antd": "^4.6.5",
+    "babel-plugin-import": "^1.13.0",
     "react": "16.13.1",
     "react-native": "0.63.2"
   },

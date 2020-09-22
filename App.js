@@ -8,16 +8,18 @@
 
 import React from 'react';
 import {SafeAreaView, StyleSheet, StatusBar} from 'react-native';
+// import Button from '@ant-design/react-native/lib/button';
+import {Provider} from '@ant-design/react-native';
 import Provinces from './components/address';
 
 const App = () => {
   return (
-    <>
+    <Provider>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.container}>
         <Provinces />
       </SafeAreaView>
-    </>
+    </Provider>
   );
 };
 
